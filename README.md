@@ -92,25 +92,25 @@
     ```
 6. ```GET``` [http://localhost:8881/api/recipe/search/?category={category_name}](http://localhost:8881/api/recipe/search/?category=beverage)\
 sample response:
-```json
-[
-    {
-        "name": "Fresh Mint Tea",
-        "description": "Light, aromatic and refreshing beverage, ...",
-        "category": "beverage",
-        "ingredients": [
-            "boiled water",
-            "honey",
-            "fresh mint leaves"
-        ],
-        "directions": [
-            "Boil water",
-            "Pour boiling hot water into a mug",
-            "Add fresh mint leaves",
-            "Mix and let the mint leaves seep for 3-5 minutes",
-            "Add honey and mix again"
-        ],
-        "date": "2021-08-19T04:03:17.573387"
-    }
-]
-```
+    ```json
+    [
+        {
+            "name": "Fresh Mint Tea",
+            "description": "Light, aromatic and refreshing beverage, ...",
+            "category": "beverage",
+            "ingredients": [
+                "boiled water",
+                "honey",
+                "fresh mint leaves"
+            ],
+            "directions": [
+                "Boil water",
+                "Pour boiling hot water into a mug",
+                "Add fresh mint leaves",
+                "Mix and let the mint leaves seep for 3-5 minutes",
+                "Add honey and mix again"
+            ],
+            "date": "2021-08-19T04:03:17.573387"
+        }
+    ]
+    ```
