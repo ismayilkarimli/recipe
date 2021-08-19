@@ -8,12 +8,12 @@
 * H2 has been used as the database
 * The endpoints are the following:
 1. ```POST```: [http://localhost:8881/api/register/](http://localhost:8881/api/register/)
-  ```json
-  {
-     "email": "heisenberg@brba.com",
-     "password": "saymyname"
-  }
-  ```
+      ```json
+      {
+         "email": "heisenberg@brba.com",
+         "password": "saymyname"
+      }
+      ```
 2. ```POST```: [http://localhost:8881/api/recipe/new](http://localhost:8881/api/recipe/new) with Authentication (HTTP Basic):
     ```json
     {
