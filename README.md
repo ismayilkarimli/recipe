@@ -7,7 +7,7 @@
 * HTTP Basic has been used for authentication purposes
 * H2 has been used as the database
 * The endpoints are the following:
-  1. ```POST```: [http://localhost:8881/api/register/](http://localhost:8881/api/register/)
+1. ```POST```: [http://localhost:8881/api/register/](http://localhost:8881/api/register/)
   ```json
   {
      "email": "heisenberg@brba.com",
